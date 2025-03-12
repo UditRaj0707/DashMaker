@@ -1,0 +1,44 @@
+[project]
+name = "dashmaker"
+version = "0.1"
+description = "dash maker"
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "dash (>=2.18.2,<3.0.0)",
+    "qdrant-client (>=1.13.2,<2.0.0)",
+    "selenium (>=4.29.0,<5.0.0)",
+    "webdriver-manager (>=4.0.2,<5.0.0)",
+    "html2text (>=2024.2.26,<2025.0.0)",
+    "langchain (>=0.3.19,<0.4.0)",
+    "langchain-community (>=0.3.18,<0.4.0)",
+    "langchain-qdrant (>=0.2.0,<0.3.0)",
+    "langchain-openai (>=0.3.7,<0.4.0)",
+    "fastembed (<0.6.0)",
+    "sentence-transformers (>=3.4.1,<4.0.0)",
+    "xformers (>=0.0.29.post3,<0.0.30)",
+    "langchain-huggingface (>=0.1.2,<0.2.0)",
+    "pdfminer (>=20191125,<20191126)",
+    "unstructured[pdf,pptx] (>=0.16.23,<0.17.0)",
+    "pdfminer-six (==20221105)",
+    "numpy (<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "pathlib (>=1.0.1,<2.0.0)",
+    "docling (>=2.25.2,<3.0.0)",
+    "langchain-docling (>=0.2.0,<0.3.0)",
+    "llm-sandbox[docker] (>=0.2.3,<0.3.0)",
+    "langgraph (>=0.3.5,<0.4.0)",
+    "load-dotenv (>=0.1.0,<0.2.0)",
+    "langchain-unstructured (>=0.1.6,<0.2.0)",
+    "llama-cloud-services (>=0.6.5,<0.7.0)",
+    "llama-index-core (>=0.12.23.post2,<0.13.0)",
+    "llama-index-readers-file (>=0.4.6,<0.5.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
